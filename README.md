@@ -3,8 +3,6 @@ This is a simple calculator project built using HTML, CSS, and JavaScript. The c
 
 ## Project Demo
 Run the project demo file to watch a video on how this calculator works. Additionally you can access a live preview by clicking the following link: [Live Preview](https://fiza-h.github.io/calculator-js/)
-## Getting Started
-To run the calculator, simply open the index.html file in your web browser.
 
 ## How to Use
 1. The calculator has buttons for each digit (0-9), as well as buttons for the basic math operations (addition, subtraction, multiplication, and division).
