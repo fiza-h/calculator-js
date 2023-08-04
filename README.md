@@ -14,14 +14,19 @@ Run the project demo file to watch a video on how this calculator works. Additio
 7. To clear the current operation and start fresh, click the "CLEAR" button.
    
 ## Features
-Basic math operations (addition, subtraction, multiplication, division)
-Display for calculator input and output
-Ability to string together multiple operations and get the correct answer
-Rounding of answers with long decimals to prevent overflow
-Snarky error message when attempting to divide by 0
-Support for floating-point numbers (decimal point input)
-Backspace button to undo incorrect inputs
-Keyboard support for numeric keys and basic operators
-Bugs and Known Issues
-Pressing "=" before entering all of the numbers or an operator could cause problems.
-Pressing a number button, followed by an operator button, another number button, and finally a second operator button could lead to unexpected behavior.
+* Basic math operations (addition, subtraction, multiplication, division)
+* Display for calculator input and output
+* Ability to string together multiple operations and get the correct answer
+* Rounding of answers with long decimals to prevent overflow
+* Snarky error message when attempting to divide by 0
+* Support for floating-point numbers (decimal point input)
+* Backspace button to undo incorrect inputs
+* Keyboard support for numeric keys and basic operators
+* Bugs and Known Issues
+* Pressing "=" before entering all of the numbers or an operator could cause problems.
+* Pressing a number button, followed by an operator button, another number button, and finally a second operator button could lead to unexpected behavior.
+
+## Tecnologies Used
+* HTML
+* CSS (flexbox)
+* Javascript
