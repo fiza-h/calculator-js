@@ -8,44 +8,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="parentWrap">
         <header><h1>Calculator</h2></header>
         <div class="wrapper">
             <div class="result">
-                <h4>1 + 1</h4>
-                <h2>2</h2>
+                <h4 id="eqString">0</h4>
+                <h2 id="result">0</h2>
             </div>
             <div class="row">
                 <button class="clear">CLEAR</button>
                 <button class="delete">DELETE</button>
             </div>
             <div class="row">
-                <button class="digit digit-7">7</button>
-                <button class="digit-8 digit">8</button>
-                <button class="digit-9 digit">9</button>
-                <button class="op-divide">÷</button>
+                <button class="digit 7">7</button>
+                <button class="8 digit">8</button>
+                <button class="9 digit">9</button>
+                <button class="op-divide op /">/</button>
             </div>
             <div class="row">
-                <button class="digit-4 digit">4</button>
-                <button class="digit-5 digit">5</button>
-                <button class="digit-6 digit">6</button>
-                <button class="op-multiply">x</button>
+                <button class="4 digit">4</button>
+                <button class="5 digit">5</button>
+                <button class="6 digit">6</button>
+                <button class="op-multiply op *">*</button>
             </div>
             <div class="row">
-                <button class="digit-1 digit">1</button>
-                <button class="digit-2 digit">2</button>
-                <button class="digit-3 digit">3</button>
-                <button class="op-subtract">-</button>
+                <button class="1 digit">1</button>
+                <button class="2 digit">2</button>
+                <button class="3 digit">3</button>
+                <button class="op-subtract op -">-</button>
             </div>
             <div class="row">
-                <button class="op-decimal">.</button>
-                <button class="digit-0">0</button>
-                <button class="op-equal">=</button>
-                <button class="op-add">-</button>
+                <button class="op-decimal .">.</button>
+                <button class="0">0</button>
+                <button class="op-equal =">=</button>
+                <button class="op-add op +">+</button>
             </div>
         </div>
+        <footer class="footer">
+            <p>
+              Copyright ©
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              fiza-h
+            </p>
+            <a href="https://github.com/fiza-h" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>

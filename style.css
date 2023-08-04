@@ -35,6 +35,13 @@ box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px
 
 body {
     font-family: 'Poppins';
+    overflow-x: hidden;
+    height: 100vh;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .parentWrap {
     display: flex;
@@ -43,6 +50,7 @@ body {
     align-content: center;
 }
 h1 {
+    font-size: x-large;
     text-align: center;
 }
 .row {
@@ -52,17 +60,46 @@ h1 {
     align-content: center;
 }
 .result {
-    background-color: aquamarine;
+    background-color: lightblue;
     text-align: right;
     padding-right: 5%;
+    border-radius: 10%;
+    margin-top: 2%;
 }
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    background-color: darkslategrey;
+    border-radius: 5%;
+}
+button {
+    font-size: large;
 }
 .wrapper div {
-    margin-bottom: 2%;
+    margin: 5%;
+}
+
+/* footer */
+.footer {
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+  }
+  
+.fa-github {
+    color: black;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+  
+.fa-github:hover {
+transform: rotate(360deg) scale(1.2);
 }
